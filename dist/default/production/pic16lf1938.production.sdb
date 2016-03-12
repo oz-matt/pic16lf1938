@@ -1,0 +1,809 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF1938 ]
+[d frameptr 6 ]
+"492 /opt/microchip/xc8/v1.36/sources/common/doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 /opt/microchip/xc8/v1.36/sources/common/float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 /opt/microchip/xc8/v1.36/sources/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 /opt/microchip/xc8/v1.36/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v1.36/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"8 /opt/microchip/xc8/v1.36/sources/common/memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+"8 /opt/microchip/xc8/v1.36/sources/common/strcpy.c
+[v _strcpy strcpy `(*.4uc  1 e 1 0 ]
+"4 /opt/microchip/xc8/v1.36/sources/common/Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 /opt/microchip/xc8/v1.36/sources/pic/eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"16 /home/matt/aqua/pic16lf1938/lib/am1805.c
+[v _send_am1805_read send_am1805_read `(v  1 s 1 send_am1805_read ]
+"25
+[v _send_am1805_write send_am1805_write `(v  1 s 1 send_am1805_write ]
+"34
+[v _am1805_write_to_addr am1805_write_to_addr `(v  1 s 1 am1805_write_to_addr ]
+"45
+[v _am1805_write_defaults am1805_write_defaults `(v  1 e 1 0 ]
+"52
+[v _am1805_start_ctdn_tmr am1805_start_ctdn_tmr `(v  1 e 1 0 ]
+"59
+[v _am1805_initiate_ctdn_sleep am1805_initiate_ctdn_sleep `(v  1 e 1 0 ]
+"88
+[v _am1805_are_we_asleep am1805_are_we_asleep `(uc  1 e 1 0 ]
+"111
+[v _am1805_sleep_error am1805_sleep_error `(v  1 e 1 0 ]
+"118
+[v _adjust_pic_time adjust_pic_time `(v  1 s 1 adjust_pic_time ]
+"212
+[v _am1805_write_pgm_time am1805_write_pgm_time `(v  1 e 1 0 ]
+"10 /home/matt/aqua/pic16lf1938/lib/eeprom.c
+[v _send_eeprom_read send_eeprom_read `(v  1 s 1 send_eeprom_read ]
+"15
+[v _send_eeprom_write send_eeprom_write `(v  1 s 1 send_eeprom_write ]
+"20
+[v _eeprom_single_write eeprom_single_write `(v  1 e 1 0 ]
+"31
+[v _eeprom_single_read eeprom_single_read `(uc  1 e 1 0 ]
+"52
+[v _eeprom_page_write eeprom_page_write `(v  1 e 1 0 ]
+"70
+[v _eeprom_seq_read eeprom_seq_read `(v  1 e 1 0 ]
+"93
+[v _eeprom_write_defaults eeprom_write_defaults `(v  1 e 1 0 ]
+"104
+[v _eeprom_write_gps_minimum eeprom_write_gps_minimum `(v  1 e 1 0 ]
+"154
+[v _eeprom_write_nrf52_sig_byte eeprom_write_nrf52_sig_byte `(v  1 e 1 0 ]
+"10 /home/matt/aqua/pic16lf1938/lib/error.c
+[v _error_blaster error_blaster `(v  1 s 1 error_blaster ]
+"36
+[v _hard_lockup hard_lockup `(v  1 e 1 0 ]
+"57
+[v _hard_lockup_uart hard_lockup_uart `(v  1 e 1 0 ]
+"14 /home/matt/aqua/pic16lf1938/lib/eusart.c
+[v _uart_write uart_write `(v  1 e 1 0 ]
+"23
+[v _uart_write_string uart_write_string `(v  1 e 1 0 ]
+"11 /home/matt/aqua/pic16lf1938/lib/i2c.c
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+"20
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"29
+[v _i2c_wait_for_ack i2c_wait_for_ack `(v  1 e 1 0 ]
+"37
+[v _i2c_gen_read i2c_gen_read `(v  1 e 1 0 ]
+"46
+[v _i2c_get_read_data i2c_get_read_data `(uc  1 e 1 0 ]
+"52
+[v _i2c_write_data i2c_write_data `(v  1 e 1 0 ]
+"61
+[v _i2c_send_ack i2c_send_ack `(v  1 e 1 0 ]
+"71
+[v _i2c_send_nack i2c_send_nack `(v  1 e 1 0 ]
+"12 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _setup_io setup_io `(v  1 s 1 setup_io ]
+"19
+[v _setup_fvrc setup_fvrc `(v  1 s 1 setup_fvrc ]
+"33
+[v _eusart_init eusart_init `(v  1 s 1 eusart_init ]
+"52
+[v _i2c_init i2c_init `(v  1 s 1 i2c_init ]
+"60
+[v _setup_interrupts setup_interrupts `(v  1 s 1 setup_interrupts ]
+"67
+[v _timer0_init timer0_init `(v  1 s 1 timer0_init ]
+"77
+[v _pwm_init pwm_init `(v  1 s 1 pwm_init ]
+"96
+[v _set_led_duty set_led_duty `(v  1 e 1 0 ]
+"116
+[v _is_usb_plugged_in is_usb_plugged_in `(uc  1 e 1 0 ]
+"120
+[v _is_tc_high is_tc_high `(uc  1 e 1 0 ]
+"124
+[v _blink blink `(v  1 e 1 0 ]
+"140
+[v _is_nrfcomplete_high is_nrfcomplete_high `(uc  1 e 1 0 ]
+"144
+[v _pic_init pic_init `(v  1 e 1 0 ]
+"54 /home/matt/aqua/pic16lf1938/src/main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"68
+[v _main main `(v  1 e 1 0 ]
+"12 /home/matt/aqua/pic16lf1938/sys/brex.c
+[v _first_pwrup_calls first_pwrup_calls `(v  1 e 1 0 ]
+"18
+[v _let_nrf_update_eeprom let_nrf_update_eeprom `(v  1 e 1 0 ]
+"34
+[v _reset_instruction_ptr reset_instruction_ptr `(v  1 e 1 0 ]
+"39
+[v _adjusted_start adjusted_start `(v  1 s 1 adjusted_start ]
+"43
+[v _sleep_start sleep_start `(v  1 e 1 0 ]
+"15 /home/matt/aqua/pic16lf1938/sys/cti.c
+[v _i3gnav i3gnav `(v  1 s 1 i3gnav ]
+"47
+[v _idsn idsn `(v  1 s 1 idsn ]
+"81
+[v _cti_instruction_loop cti_instruction_loop `(v  1 e 1 0 ]
+"7 /home/matt/aqua/pic16lf1938/sys/ichex.c
+[v _is_this_the_first_pwrup is_this_the_first_pwrup `(uc  1 e 1 0 ]
+"26 /home/matt/aqua/pic16lf1938/ubx/ubxcmd.c
+[v _reset_ubx_struct reset_ubx_struct `(v  1 e 1 0 ]
+"32
+[v _ubx_send_str ubx_send_str `(v  1 e 1 0 ]
+"42
+[v _ubx_send_and_recv ubx_send_and_recv `(uc  1 e 1 0 ]
+"64
+[v _ubx_silence_nmea ubx_silence_nmea `(v  1 e 1 0 ]
+"78
+[v _eval_ubx_buf_for_fix eval_ubx_buf_for_fix `(uc  1 s 1 eval_ubx_buf_for_fix ]
+"85
+[v _get_pvt_str get_pvt_str `(v  1 s 1 get_pvt_str ]
+"94
+[v _sort_pvt_data_into_gps_struct sort_pvt_data_into_gps_struct `(v  1 s 1 sort_pvt_data_into_gps_struct ]
+"136
+[v _update_gps_fix_data update_gps_fix_data `(v  1 e 1 0 ]
+"143
+[v _have_3d_fix have_3d_fix `(uc  1 e 1 0 ]
+"414 /opt/microchip/xc8/v1.36/include/pic16lf1938.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"475
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"536
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"779
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1008
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1027
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+"1195
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1256
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1317
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1692
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1807
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2142
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2203
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2345
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @273 ]
+"2401
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @274 ]
+"2638
+[v _FVRCON FVRCON `VEuc  1 e 1 @279 ]
+"3010
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3310
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3329
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3354
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3706
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @529 ]
+"3725
+[v _SSPADD SSPADD `VEuc  1 e 1 @530 ]
+"3763
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @532 ]
+"3824
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @533 ]
+"4073
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"4111
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"4423
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @664 ]
+"4461
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @666 ]
+"6973
+[v _ACKDT ACKDT `VEb  1 e 0 @4277 ]
+"6975
+[v _ACKEN ACKEN `VEb  1 e 0 @4276 ]
+"6977
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @4278 ]
+"7047
+[v _BRG16 BRG16 `VEb  1 e 0 @3323 ]
+"7049
+[v _BRGH BRGH `VEb  1 e 0 @3314 ]
+"7269
+[v _CREN CREN `VEb  1 e 0 @3308 ]
+"7341
+[v _FVRRDY FVRRDY `VEb  1 e 0 @2238 ]
+"7345
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"7601
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"7603
+[v _PEN PEN `VEb  1 e 0 @4274 ]
+"7607
+[v _PS0 PS0 `VEb  1 e 0 @1192 ]
+"7609
+[v _PS1 PS1 `VEb  1 e 0 @1193 ]
+"7611
+[v _PS2 PS2 `VEb  1 e 0 @1194 ]
+"7613
+[v _PSA PSA `VEb  1 e 0 @1195 ]
+"7687
+[v _RCEN RCEN `VEb  1 e 0 @4275 ]
+"7691
+[v _RCIE RCIE `VEb  1 e 0 @1165 ]
+"7693
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"7705
+[v _R_nW R_nW `VEb  1 e 0 @4258 ]
+"7881
+[v _SEN SEN `VEb  1 e 0 @4272 ]
+"7889
+[v _SPEN SPEN `VEb  1 e 0 @3311 ]
+"7983
+[v _SYNC SYNC `VEb  1 e 0 @3316 ]
+"8057
+[v _TMR0CS TMR0CS `VEb  1 e 0 @1197 ]
+"8059
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"8061
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"8063
+[v _TMR0SE TMR0SE `VEb  1 e 0 @1196 ]
+"8085
+[v _TMR2ON TMR2ON `VEb  1 e 0 @226 ]
+"8149
+[v _TRMT TRMT `VEb  1 e 0 @3313 ]
+"8171
+[v _TXEN TXEN `VEb  1 e 0 @3317 ]
+"354 /opt/microchip/xc8/v1.36/sources/common/doprnt.c
+[v _dpowers dpowers `DCC[5]ui  1 s 10 dpowers ]
+[s S19 . 6 `uc 1 sec 1 0 `uc 1 min 1 1 `uc 1 hr 1 2 `uc 1 day 1 3 `uc 1 mo 1 4 `uc 1 yr 1 5 ]
+"37 /home/matt/aqua/pic16lf1938/lib/am1805.h
+[v _PicTime PicTime `S19  1 e 6 0 ]
+"51 /home/matt/aqua/pic16lf1938/src/main.c
+[v _tmr0_overflow tmr0_overflow `uc  1 e 1 0 ]
+[s S28 . 103 `[102]uc 1 buf 102 0 `uc 1 idx 1 102 ]
+"16 /home/matt/aqua/pic16lf1938/ubx/ubxcmd.c
+[v _UbxReceiver UbxReceiver `VES28  1 e 103 @9097 ]
+[s S249 . 31 `[2]uc 1 year 2 0 `uc 1 month 1 2 `uc 1 day 1 3 `uc 1 hour 1 4 `uc 1 minute 1 5 `uc 1 second 1 6 `uc 1 valid_flags 1 7 `uc 1 gps_flags 1 8 `uc 1 time_flags 1 9 `uc 1 num_sat 1 10 `[4]uc 1 lon 4 11 `[4]uc 1 lat 4 15 `[4]uc 1 height 4 19 `[4]uc 1 gspeed 4 23 `[4]uc 1 direction 4 27 ]
+"17
+[v _GpsMinimum GpsMinimum `VES249  1 e 31 0 ]
+"20 /home/matt/aqua/pic16lf1938/ubx/ubxcmd.h
+[v _ubx_poll_status ubx_poll_status `[9]uc  1 e 9 0 ]
+"26
+[v _ubx_poll_pvt ubx_poll_pvt `[9]uc  1 e 9 0 ]
+"29
+[v _ubx_disable_gxgga ubx_disable_gxgga `[12]uc  1 e 12 0 ]
+"32
+[v _ubx_disable_gxgll ubx_disable_gxgll `[12]uc  1 e 12 0 ]
+"35
+[v _ubx_disable_gxgsa ubx_disable_gxgsa `[12]uc  1 e 12 0 ]
+"38
+[v _ubx_disable_gxgsv ubx_disable_gxgsv `[12]uc  1 e 12 0 ]
+"41
+[v _ubx_disable_gxrmc ubx_disable_gxrmc `[12]uc  1 e 12 0 ]
+"44
+[v _ubx_disable_gxvtg ubx_disable_gxvtg `[12]uc  1 e 12 0 ]
+"68 /home/matt/aqua/pic16lf1938/src/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"100
+[v main@mode mode `uc  1 a 1 0 ]
+"118
+} 0
+"43 /home/matt/aqua/pic16lf1938/sys/brex.c
+[v _sleep_start sleep_start `(v  1 e 1 0 ]
+{
+"45
+[v sleep_start@sleep_vals sleep_vals `[4]uc  1 a 4 11 ]
+"43
+[v sleep_start@F3275 F3275 `[4]uc  1 s 4 F3275 ]
+"66
+} 0
+"70 /home/matt/aqua/pic16lf1938/lib/eeprom.c
+[v _eeprom_seq_read eeprom_seq_read `(v  1 e 1 0 ]
+{
+[v eeprom_seq_read@start_addr start_addr `uc  1 a 1 wreg ]
+"72
+[v eeprom_seq_read@i i `uc  1 a 1 40 ]
+"70
+[v eeprom_seq_read@start_addr start_addr `uc  1 a 1 wreg ]
+[v eeprom_seq_read@return_data return_data `*.4uc  1 p 1 35 ]
+[v eeprom_seq_read@len len `uc  1 p 1 36 ]
+"74
+[v eeprom_seq_read@start_addr start_addr `uc  1 a 1 39 ]
+"91
+} 0
+"61 /home/matt/aqua/pic16lf1938/lib/i2c.c
+[v _i2c_send_ack i2c_send_ack `(v  1 e 1 0 ]
+{
+"69
+} 0
+"39 /home/matt/aqua/pic16lf1938/sys/brex.c
+[v _adjusted_start adjusted_start `(v  1 s 1 adjusted_start ]
+{
+"41
+} 0
+"81 /home/matt/aqua/pic16lf1938/sys/cti.c
+[v _cti_instruction_loop cti_instruction_loop `(v  1 e 1 0 ]
+{
+"88
+[v cti_instruction_loop@n n `ui  1 a 2 5 ]
+"84
+[v cti_instruction_loop@next_instruction_address next_instruction_address `uc  1 a 1 10 ]
+"87
+[v cti_instruction_loop@high_n high_n `uc  1 a 1 9 ]
+"86
+[v cti_instruction_loop@low_n low_n `uc  1 a 1 8 ]
+"85
+[v cti_instruction_loop@instruction instruction `uc  1 a 1 7 ]
+"105
+} 0
+"34 /home/matt/aqua/pic16lf1938/sys/brex.c
+[v _reset_instruction_ptr reset_instruction_ptr `(v  1 e 1 0 ]
+{
+"37
+} 0
+"47 /home/matt/aqua/pic16lf1938/sys/cti.c
+[v _idsn idsn `(v  1 s 1 idsn ]
+{
+"58
+[v idsn@debug debug `[20]uc  1 a 20 47 ]
+"49
+[v idsn@remainder remainder `uc  1 a 1 68 ]
+"48
+[v idsn@quotient quotient `uc  1 a 1 67 ]
+"47
+[v idsn@n n `ui  1 p 2 41 ]
+"79
+} 0
+"492 /opt/microchip/xc8/v1.36/sources/common/doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"528
+[v sprintf@val val `ui  1 a 2 28 ]
+"499
+[v sprintf@c c `c  1 a 1 31 ]
+"506
+[v sprintf@prec prec `c  1 a 1 27 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 26 ]
+"494
+[v sprintf@ap ap `[1]*.4v  1 a 1 25 ]
+"492
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.25DCCuc  1 p 2 7 ]
+"533
+[v sprintf@sp sp `*.4uc  1 a 1 30 ]
+"1541
+} 0
+"6 /opt/microchip/xc8/v1.36/sources/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 9 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 3 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 5 ]
+"26
+} 0
+"6 /opt/microchip/xc8/v1.36/sources/common/lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 1 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 0 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 3 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+"31
+} 0
+"52 /home/matt/aqua/pic16lf1938/lib/am1805.c
+[v _am1805_start_ctdn_tmr am1805_start_ctdn_tmr `(v  1 e 1 0 ]
+{
+[v am1805_start_ctdn_tmr@amt_time amt_time `uc  1 a 1 wreg ]
+[v am1805_start_ctdn_tmr@amt_time amt_time `uc  1 a 1 wreg ]
+[v am1805_start_ctdn_tmr@amt_time amt_time `uc  1 a 1 40 ]
+"57
+} 0
+"59
+[v _am1805_initiate_ctdn_sleep am1805_initiate_ctdn_sleep `(v  1 e 1 0 ]
+{
+"64
+} 0
+"15 /home/matt/aqua/pic16lf1938/sys/cti.c
+[v _i3gnav i3gnav `(v  1 s 1 i3gnav ]
+{
+"45
+} 0
+"136 /home/matt/aqua/pic16lf1938/ubx/ubxcmd.c
+[v _update_gps_fix_data update_gps_fix_data `(v  1 e 1 0 ]
+{
+"141
+} 0
+"94
+[v _sort_pvt_data_into_gps_struct sort_pvt_data_into_gps_struct `(v  1 s 1 sort_pvt_data_into_gps_struct ]
+{
+"134
+} 0
+"85
+[v _get_pvt_str get_pvt_str `(v  1 s 1 get_pvt_str ]
+{
+"86
+[v get_pvt_str@err_ctr err_ctr `uc  1 a 1 36 ]
+"92
+} 0
+"64
+[v _ubx_silence_nmea ubx_silence_nmea `(v  1 e 1 0 ]
+{
+"76
+} 0
+"143
+[v _have_3d_fix have_3d_fix `(uc  1 e 1 0 ]
+{
+"144
+[v have_3d_fix@err_ctr err_ctr `uc  1 a 1 36 ]
+"154
+} 0
+"42
+[v _ubx_send_and_recv ubx_send_and_recv `(uc  1 e 1 0 ]
+{
+"44
+[v ubx_send_and_recv@i i `uc  1 a 1 13 ]
+"42
+[v ubx_send_and_recv@ubx_cmd ubx_cmd `*.39uc  1 p 2 7 ]
+[v ubx_send_and_recv@response_time response_time `uc  1 p 1 9 ]
+[v ubx_send_and_recv@expected_len expected_len `uc  1 p 1 10 ]
+"62
+} 0
+"32
+[v _ubx_send_str ubx_send_str `(v  1 e 1 0 ]
+{
+"33
+[v ubx_send_str@i i `i  1 a 2 5 ]
+"32
+[v ubx_send_str@str str `*.39uc  1 p 2 3 ]
+"37
+} 0
+"26
+[v _reset_ubx_struct reset_ubx_struct `(v  1 e 1 0 ]
+{
+"29
+} 0
+"8 /opt/microchip/xc8/v1.36/sources/common/memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 0 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 3 ]
+[v memset@c c `i  1 p 2 5 ]
+[v memset@n n `ui  1 p 2 7 ]
+"22
+} 0
+"78 /home/matt/aqua/pic16lf1938/ubx/ubxcmd.c
+[v _eval_ubx_buf_for_fix eval_ubx_buf_for_fix `(uc  1 s 1 eval_ubx_buf_for_fix ]
+{
+"83
+} 0
+"104 /home/matt/aqua/pic16lf1938/lib/eeprom.c
+[v _eeprom_write_gps_minimum eeprom_write_gps_minimum `(v  1 e 1 0 ]
+{
+"127
+[v eeprom_write_gps_minimum@gpspage3 gpspage3 `[8]uc  1 a 8 60 ]
+"116
+[v eeprom_write_gps_minimum@gpspage2 gpspage2 `[8]uc  1 a 8 52 ]
+"105
+[v eeprom_write_gps_minimum@gpspage1 gpspage1 `[8]uc  1 a 8 44 ]
+"138
+[v eeprom_write_gps_minimum@gpspage4 gpspage4 `[7]uc  1 a 7 68 ]
+"152
+} 0
+"144 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _pic_init pic_init `(v  1 e 1 0 ]
+{
+"161
+} 0
+"67
+[v _timer0_init timer0_init `(v  1 s 1 timer0_init ]
+{
+"75
+} 0
+"12
+[v _setup_io setup_io `(v  1 s 1 setup_io ]
+{
+"17
+} 0
+"60
+[v _setup_interrupts setup_interrupts `(v  1 s 1 setup_interrupts ]
+{
+"65
+} 0
+"19
+[v _setup_fvrc setup_fvrc `(v  1 s 1 setup_fvrc ]
+{
+"31
+} 0
+"77
+[v _pwm_init pwm_init `(v  1 s 1 pwm_init ]
+{
+"90
+} 0
+"52
+[v _i2c_init i2c_init `(v  1 s 1 i2c_init ]
+{
+"58
+} 0
+"33
+[v _eusart_init eusart_init `(v  1 s 1 eusart_init ]
+{
+"50
+} 0
+"18 /home/matt/aqua/pic16lf1938/sys/brex.c
+[v _let_nrf_update_eeprom let_nrf_update_eeprom `(v  1 e 1 0 ]
+{
+"32
+} 0
+"140 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _is_nrfcomplete_high is_nrfcomplete_high `(uc  1 e 1 0 ]
+{
+"142
+} 0
+"154 /home/matt/aqua/pic16lf1938/lib/eeprom.c
+[v _eeprom_write_nrf52_sig_byte eeprom_write_nrf52_sig_byte `(v  1 e 1 0 ]
+{
+[v eeprom_write_nrf52_sig_byte@sig_byte sig_byte `uc  1 a 1 wreg ]
+[v eeprom_write_nrf52_sig_byte@sig_byte sig_byte `uc  1 a 1 wreg ]
+[v eeprom_write_nrf52_sig_byte@sig_byte sig_byte `uc  1 a 1 38 ]
+"156
+} 0
+"116 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _is_usb_plugged_in is_usb_plugged_in `(uc  1 e 1 0 ]
+{
+"118
+} 0
+"7 /home/matt/aqua/pic16lf1938/sys/ichex.c
+[v _is_this_the_first_pwrup is_this_the_first_pwrup `(uc  1 e 1 0 ]
+{
+"12
+} 0
+"31 /home/matt/aqua/pic16lf1938/lib/eeprom.c
+[v _eeprom_single_read eeprom_single_read `(uc  1 e 1 0 ]
+{
+[v eeprom_single_read@addr addr `uc  1 a 1 wreg ]
+"33
+[v eeprom_single_read@ret ret `uc  1 a 1 37 ]
+"31
+[v eeprom_single_read@addr addr `uc  1 a 1 wreg ]
+"35
+[v eeprom_single_read@addr addr `uc  1 a 1 36 ]
+"50
+} 0
+"10
+[v _send_eeprom_read send_eeprom_read `(v  1 s 1 send_eeprom_read ]
+{
+"13
+} 0
+"71 /home/matt/aqua/pic16lf1938/lib/i2c.c
+[v _i2c_send_nack i2c_send_nack `(v  1 e 1 0 ]
+{
+"79
+} 0
+"120 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _is_tc_high is_tc_high `(uc  1 e 1 0 ]
+{
+"122
+} 0
+"12 /home/matt/aqua/pic16lf1938/sys/brex.c
+[v _first_pwrup_calls first_pwrup_calls `(v  1 e 1 0 ]
+{
+"16
+} 0
+"93 /home/matt/aqua/pic16lf1938/lib/eeprom.c
+[v _eeprom_write_defaults eeprom_write_defaults `(v  1 e 1 0 ]
+{
+"96
+[v eeprom_write_defaults@sp_defaults sp_defaults `[8]uc  1 a 8 44 ]
+"95
+[v eeprom_write_defaults@sleep_defaults sleep_defaults `[4]uc  1 a 4 52 ]
+"93
+[v eeprom_write_defaults@F3293 F3293 `[4]uc  1 s 4 F3293 ]
+"95
+[v eeprom_write_defaults@F3295 F3295 `[8]uc  1 s 8 F3295 ]
+"102
+} 0
+"20
+[v _eeprom_single_write eeprom_single_write `(v  1 e 1 0 ]
+{
+[v eeprom_single_write@data data `uc  1 a 1 wreg ]
+[v eeprom_single_write@data data `uc  1 a 1 wreg ]
+[v eeprom_single_write@addr addr `uc  1 p 1 35 ]
+[v eeprom_single_write@data data `uc  1 a 1 36 ]
+"29
+} 0
+"52
+[v _eeprom_page_write eeprom_page_write `(v  1 e 1 0 ]
+{
+[v eeprom_page_write@page page `uc  1 a 1 wreg ]
+"53
+[v eeprom_page_write@i i `uc  1 a 1 41 ]
+[v eeprom_page_write@start_addr start_addr `uc  1 a 1 40 ]
+"52
+[v eeprom_page_write@page page `uc  1 a 1 wreg ]
+[v eeprom_page_write@page_data page_data `*.4uc  1 p 1 35 ]
+[v eeprom_page_write@len len `uc  1 p 1 36 ]
+[v eeprom_page_write@page page `uc  1 a 1 39 ]
+"68
+} 0
+"15
+[v _send_eeprom_write send_eeprom_write `(v  1 s 1 send_eeprom_write ]
+{
+"18
+} 0
+"212 /home/matt/aqua/pic16lf1938/lib/am1805.c
+[v _am1805_write_pgm_time am1805_write_pgm_time `(v  1 e 1 0 ]
+{
+"231
+} 0
+"45
+[v _am1805_write_defaults am1805_write_defaults `(v  1 e 1 0 ]
+{
+"50
+} 0
+"34
+[v _am1805_write_to_addr am1805_write_to_addr `(v  1 s 1 am1805_write_to_addr ]
+{
+[v am1805_write_to_addr@data data `uc  1 a 1 wreg ]
+[v am1805_write_to_addr@data data `uc  1 a 1 wreg ]
+[v am1805_write_to_addr@addr addr `uc  1 p 1 35 ]
+[v am1805_write_to_addr@data data `uc  1 a 1 36 ]
+"43
+} 0
+"124 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _blink blink `(v  1 e 1 0 ]
+{
+"138
+} 0
+"111 /home/matt/aqua/pic16lf1938/lib/am1805.c
+[v _am1805_sleep_error am1805_sleep_error `(v  1 e 1 0 ]
+{
+"116
+} 0
+"88
+[v _am1805_are_we_asleep am1805_are_we_asleep `(uc  1 e 1 0 ]
+{
+"90
+[v am1805_are_we_asleep@val val `uc  1 a 1 36 ]
+"109
+} 0
+"25
+[v _send_am1805_write send_am1805_write `(v  1 s 1 send_am1805_write ]
+{
+"32
+} 0
+"16
+[v _send_am1805_read send_am1805_read `(v  1 s 1 send_am1805_read ]
+{
+"23
+} 0
+"52 /home/matt/aqua/pic16lf1938/lib/i2c.c
+[v _i2c_write_data i2c_write_data `(v  1 e 1 0 ]
+{
+[v i2c_write_data@data data `uc  1 a 1 wreg ]
+[v i2c_write_data@data data `uc  1 a 1 wreg ]
+[v i2c_write_data@data data `uc  1 a 1 34 ]
+"59
+} 0
+"29
+[v _i2c_wait_for_ack i2c_wait_for_ack `(v  1 e 1 0 ]
+{
+"35
+} 0
+"20
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"27
+} 0
+"11
+[v _i2c_start i2c_start `(v  1 e 1 0 ]
+{
+"18
+} 0
+"46
+[v _i2c_get_read_data i2c_get_read_data `(uc  1 e 1 0 ]
+{
+"47
+[v i2c_get_read_data@latest_byte latest_byte `uc  1 a 1 4 ]
+"50
+} 0
+"37
+[v _i2c_gen_read i2c_gen_read `(v  1 e 1 0 ]
+{
+"44
+} 0
+"36 /home/matt/aqua/pic16lf1938/lib/error.c
+[v _hard_lockup hard_lockup `(v  1 e 1 0 ]
+{
+[v hard_lockup@err_num err_num `uc  1 a 1 wreg ]
+"38
+[v hard_lockup@i i `uc  1 a 1 32 ]
+"36
+[v hard_lockup@err_num err_num `uc  1 a 1 wreg ]
+"40
+[v hard_lockup@err_num err_num `uc  1 a 1 33 ]
+"55
+} 0
+"10
+[v _error_blaster error_blaster `(v  1 s 1 error_blaster ]
+{
+[v error_blaster@err_num err_num `uc  1 a 1 wreg ]
+"11
+[v error_blaster@str str `[20]uc  1 a 20 8 ]
+"10
+[v error_blaster@err_num err_num `uc  1 a 1 wreg ]
+[v error_blaster@err_num err_num `uc  1 a 1 28 ]
+"30
+} 0
+"23 /home/matt/aqua/pic16lf1938/lib/eusart.c
+[v _uart_write_string uart_write_string `(v  1 e 1 0 ]
+{
+"24
+[v uart_write_string@i i `i  1 a 2 6 ]
+"23
+[v uart_write_string@str str `*.26DCCuc  1 p 2 3 ]
+"28
+} 0
+"14
+[v _uart_write uart_write `(v  1 e 1 0 ]
+{
+[v uart_write@data data `uc  1 a 1 wreg ]
+[v uart_write@data data `uc  1 a 1 wreg ]
+[v uart_write@data data `uc  1 a 1 9 ]
+"21
+} 0
+"57 /home/matt/aqua/pic16lf1938/lib/error.c
+[v _hard_lockup_uart hard_lockup_uart `(v  1 e 1 0 ]
+{
+"58
+[v hard_lockup_uart@i i `uc  1 a 1 8 ]
+"74
+} 0
+"96 /home/matt/aqua/pic16lf1938/lib/io.c
+[v _set_led_duty set_led_duty `(v  1 e 1 0 ]
+{
+[v set_led_duty@color color `uc  1 a 1 wreg ]
+[v set_led_duty@color color `uc  1 a 1 wreg ]
+[v set_led_duty@duty duty `ui  1 p 2 3 ]
+[v set_led_duty@color color `uc  1 a 1 7 ]
+"114
+} 0
+"8 /opt/microchip/xc8/v1.36/sources/common/strcpy.c
+[v _strcpy strcpy `(*.4uc  1 e 1 0 ]
+{
+[v strcpy@to to `*.4uc  1 a 1 wreg ]
+"15
+[v strcpy@cp cp `*.4uc  1 a 1 6 ]
+"8
+[v strcpy@to to `*.4uc  1 a 1 wreg ]
+[v strcpy@from from `*.25DCCuc  1 p 2 3 ]
+"18
+[v strcpy@to to `*.4uc  1 a 1 7 ]
+"24
+} 0
+"54 /home/matt/aqua/pic16lf1938/src/main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"66
+} 0
