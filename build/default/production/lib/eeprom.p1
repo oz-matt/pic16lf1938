@@ -3745,9 +3745,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U _eeprom_write_nrf52_sig_byte ]
 [v _sig_byte `uc ~T0 @X0 1 r1 ]
 [f ]
-[; ;eeprom.c: 155: eeprom_single_write(0x0A, sig_byte);
+[; ;eeprom.c: 155: eeprom_single_write(sig_byte, 0x0A);
 "155
-[e ( _eeprom_single_write (2 , -> -> 10 `i `uc _sig_byte ]
+[e ( _eeprom_single_write (2 , _sig_byte -> -> 10 `i `uc ]
 [; ;eeprom.c: 156: }
 "156
 [e :UE 376 ]

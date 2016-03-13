@@ -152,5 +152,5 @@ void eeprom_write_gps_minimum(void) {
 }
 
 void eeprom_write_nrf52_sig_byte(uint8_t sig_byte) {
-    eeprom_single_write(EEPROM_NRF52_SIG_BYTE, sig_byte);
+    eeprom_single_write(sig_byte, EEPROM_NRF52_SIG_BYTE);
 }

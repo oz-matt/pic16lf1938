@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.36 build -262312587 
-                                                                                               Sat Mar 12 16:55:32 2016
+                                                                                               Sun Mar 13 04:59:53 2016
 
 Microchip Technology Omniscient Code Generator v1.36 (Free mode) build 201601150325
      1                           	processor	16LF1938
@@ -7872,12 +7872,12 @@ Microchip Technology Omniscient Code Generator v1.36 (Free mode) build 201601150
   7684  0886  0020               	movlb	0	; select bank0
   7685  0887  00C6               	movwf	eeprom_write_nrf52_sig_byte@sig_byte
   7686                           
-  7687                           ;eeprom.c: 155: eeprom_single_write(0x0A, sig_byte);
-  7688  0888  0846               	movf	eeprom_write_nrf52_sig_byte@sig_byte,w
+  7687                           ;eeprom.c: 155: eeprom_single_write(sig_byte, 0x0A);
+  7688  0888  300A               	movlw	10
   7689  0889  00C5               	movwf	??_eeprom_write_nrf52_sig_byte
   7690  088A  0845               	movf	??_eeprom_write_nrf52_sig_byte,w
   7691  088B  00C3               	movwf	eeprom_single_write@addr
-  7692  088C  300A               	movlw	10
+  7692  088C  0846               	movf	eeprom_write_nrf52_sig_byte@sig_byte,w
   7693  088D  318A  228B         	fcall	_eeprom_single_write
   7694  088F  0008               	return
   7695  0890                     __end_of_eeprom_write_nrf52_sig_byte:	
@@ -13105,7 +13105,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.36 build -262312587 
-Symbol Table                                                                                   Sat Mar 12 16:55:32 2016
+Symbol Table                                                                                   Sun Mar 13 04:59:53 2016
 
                                  __CFG_CP$OFF 0000                                uart_write@data 0079  
                    __end_of_send_am1805_write 09C0                                  ?_get_pvt_str 0070  

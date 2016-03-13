@@ -97,7 +97,7 @@ dataBANK2 BANK2 1 120 120 4A 1
 dataBANK3 BANK3 1 1A0 1A0 22 1
 clrtext CODE 0 8DB 8DB C 2
 bssCOMMON COMMON 1 7A 7A 1 1
-$/tmp/xcXsDbPYc.obj
+$/tmp/xcXct1tTm.obj
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 3C 3C 2 2
 config CONFIG 0 8007 8007 2 2
@@ -193,67 +193,67 @@ STRING 1000-3FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/pic16lf1938.production.obj
-3E cinit CODE >4551:/tmp/xcXu8n1Ks
-3E cinit CODE >4554:/tmp/xcXu8n1Ks
-3E cinit CODE >4678:/tmp/xcXu8n1Ks
-3F cinit CODE >4679:/tmp/xcXu8n1Ks
-40 cinit CODE >4680:/tmp/xcXu8n1Ks
-41 cinit CODE >4681:/tmp/xcXu8n1Ks
-42 cinit CODE >4682:/tmp/xcXu8n1Ks
-43 cinit CODE >4683:/tmp/xcXu8n1Ks
-44 cinit CODE >4684:/tmp/xcXu8n1Ks
-45 cinit CODE >4685:/tmp/xcXu8n1Ks
-46 cinit CODE >4686:/tmp/xcXu8n1Ks
-49 cinit CODE >4690:/tmp/xcXu8n1Ks
-4A cinit CODE >4694:/tmp/xcXu8n1Ks
-4B cinit CODE >4695:/tmp/xcXu8n1Ks
-4C cinit CODE >4696:/tmp/xcXu8n1Ks
-4D cinit CODE >4697:/tmp/xcXu8n1Ks
-4E cinit CODE >4698:/tmp/xcXu8n1Ks
-4F cinit CODE >4699:/tmp/xcXu8n1Ks
-50 cinit CODE >4700:/tmp/xcXu8n1Ks
-51 cinit CODE >4701:/tmp/xcXu8n1Ks
-52 cinit CODE >4702:/tmp/xcXu8n1Ks
-55 cinit CODE >4723:/tmp/xcXu8n1Ks
-56 cinit CODE >4724:/tmp/xcXu8n1Ks
-57 cinit CODE >4725:/tmp/xcXu8n1Ks
-58 cinit CODE >4726:/tmp/xcXu8n1Ks
-59 cinit CODE >4727:/tmp/xcXu8n1Ks
-5A cinit CODE >4728:/tmp/xcXu8n1Ks
-5B cinit CODE >4729:/tmp/xcXu8n1Ks
-5C cinit CODE >4730:/tmp/xcXu8n1Ks
-5D cinit CODE >4731:/tmp/xcXu8n1Ks
-5E cinit CODE >4732:/tmp/xcXu8n1Ks
-5F cinit CODE >4733:/tmp/xcXu8n1Ks
-60 cinit CODE >4734:/tmp/xcXu8n1Ks
-63 cinit CODE >4738:/tmp/xcXu8n1Ks
-64 cinit CODE >4739:/tmp/xcXu8n1Ks
-65 cinit CODE >4740:/tmp/xcXu8n1Ks
-66 cinit CODE >4741:/tmp/xcXu8n1Ks
-67 cinit CODE >4742:/tmp/xcXu8n1Ks
-68 cinit CODE >4743:/tmp/xcXu8n1Ks
-69 cinit CODE >4744:/tmp/xcXu8n1Ks
-6A cinit CODE >4745:/tmp/xcXu8n1Ks
-6B cinit CODE >4746:/tmp/xcXu8n1Ks
-6C cinit CODE >4747:/tmp/xcXu8n1Ks
-6D cinit CODE >4748:/tmp/xcXu8n1Ks
-6E cinit CODE >4749:/tmp/xcXu8n1Ks
-71 cinit CODE >4753:/tmp/xcXu8n1Ks
-72 cinit CODE >4754:/tmp/xcXu8n1Ks
-73 cinit CODE >4755:/tmp/xcXu8n1Ks
-74 cinit CODE >4756:/tmp/xcXu8n1Ks
-75 cinit CODE >4757:/tmp/xcXu8n1Ks
-76 cinit CODE >4758:/tmp/xcXu8n1Ks
-77 cinit CODE >4759:/tmp/xcXu8n1Ks
-78 cinit CODE >4760:/tmp/xcXu8n1Ks
-79 cinit CODE >4761:/tmp/xcXu8n1Ks
-7A cinit CODE >4762:/tmp/xcXu8n1Ks
-7B cinit CODE >4763:/tmp/xcXu8n1Ks
-7C cinit CODE >4764:/tmp/xcXu8n1Ks
-7E cinit CODE >4770:/tmp/xcXu8n1Ks
-7E cinit CODE >4772:/tmp/xcXu8n1Ks
-7F cinit CODE >4773:/tmp/xcXu8n1Ks
-80 cinit CODE >4774:/tmp/xcXu8n1Ks
+3E cinit CODE >4551:/tmp/xcXrftkzm
+3E cinit CODE >4554:/tmp/xcXrftkzm
+3E cinit CODE >4678:/tmp/xcXrftkzm
+3F cinit CODE >4679:/tmp/xcXrftkzm
+40 cinit CODE >4680:/tmp/xcXrftkzm
+41 cinit CODE >4681:/tmp/xcXrftkzm
+42 cinit CODE >4682:/tmp/xcXrftkzm
+43 cinit CODE >4683:/tmp/xcXrftkzm
+44 cinit CODE >4684:/tmp/xcXrftkzm
+45 cinit CODE >4685:/tmp/xcXrftkzm
+46 cinit CODE >4686:/tmp/xcXrftkzm
+49 cinit CODE >4690:/tmp/xcXrftkzm
+4A cinit CODE >4694:/tmp/xcXrftkzm
+4B cinit CODE >4695:/tmp/xcXrftkzm
+4C cinit CODE >4696:/tmp/xcXrftkzm
+4D cinit CODE >4697:/tmp/xcXrftkzm
+4E cinit CODE >4698:/tmp/xcXrftkzm
+4F cinit CODE >4699:/tmp/xcXrftkzm
+50 cinit CODE >4700:/tmp/xcXrftkzm
+51 cinit CODE >4701:/tmp/xcXrftkzm
+52 cinit CODE >4702:/tmp/xcXrftkzm
+55 cinit CODE >4723:/tmp/xcXrftkzm
+56 cinit CODE >4724:/tmp/xcXrftkzm
+57 cinit CODE >4725:/tmp/xcXrftkzm
+58 cinit CODE >4726:/tmp/xcXrftkzm
+59 cinit CODE >4727:/tmp/xcXrftkzm
+5A cinit CODE >4728:/tmp/xcXrftkzm
+5B cinit CODE >4729:/tmp/xcXrftkzm
+5C cinit CODE >4730:/tmp/xcXrftkzm
+5D cinit CODE >4731:/tmp/xcXrftkzm
+5E cinit CODE >4732:/tmp/xcXrftkzm
+5F cinit CODE >4733:/tmp/xcXrftkzm
+60 cinit CODE >4734:/tmp/xcXrftkzm
+63 cinit CODE >4738:/tmp/xcXrftkzm
+64 cinit CODE >4739:/tmp/xcXrftkzm
+65 cinit CODE >4740:/tmp/xcXrftkzm
+66 cinit CODE >4741:/tmp/xcXrftkzm
+67 cinit CODE >4742:/tmp/xcXrftkzm
+68 cinit CODE >4743:/tmp/xcXrftkzm
+69 cinit CODE >4744:/tmp/xcXrftkzm
+6A cinit CODE >4745:/tmp/xcXrftkzm
+6B cinit CODE >4746:/tmp/xcXrftkzm
+6C cinit CODE >4747:/tmp/xcXrftkzm
+6D cinit CODE >4748:/tmp/xcXrftkzm
+6E cinit CODE >4749:/tmp/xcXrftkzm
+71 cinit CODE >4753:/tmp/xcXrftkzm
+72 cinit CODE >4754:/tmp/xcXrftkzm
+73 cinit CODE >4755:/tmp/xcXrftkzm
+74 cinit CODE >4756:/tmp/xcXrftkzm
+75 cinit CODE >4757:/tmp/xcXrftkzm
+76 cinit CODE >4758:/tmp/xcXrftkzm
+77 cinit CODE >4759:/tmp/xcXrftkzm
+78 cinit CODE >4760:/tmp/xcXrftkzm
+79 cinit CODE >4761:/tmp/xcXrftkzm
+7A cinit CODE >4762:/tmp/xcXrftkzm
+7B cinit CODE >4763:/tmp/xcXrftkzm
+7C cinit CODE >4764:/tmp/xcXrftkzm
+7E cinit CODE >4770:/tmp/xcXrftkzm
+7E cinit CODE >4772:/tmp/xcXrftkzm
+7F cinit CODE >4773:/tmp/xcXrftkzm
+80 cinit CODE >4774:/tmp/xcXrftkzm
 4 intentry CODE >24:/opt/microchip/xc8/v1.36/sources/common/strcpy.c
 4 intentry CODE >54:/home/matt/aqua/pic16lf1938/src/main.c
 9 intentry CODE >55:/home/matt/aqua/pic16lf1938/src/main.c
@@ -932,34 +932,34 @@ DC4 text1 CODE >66:/home/matt/aqua/pic16lf1938/sys/brex.c
 732 maintext CODE >113:/home/matt/aqua/pic16lf1938/src/main.c
 735 maintext CODE >114:/home/matt/aqua/pic16lf1938/src/main.c
 743 maintext CODE >111:/home/matt/aqua/pic16lf1938/src/main.c
-8CF inittext CODE >4706:/tmp/xcXu8n1Ks
-8CF inittext CODE >4707:/tmp/xcXu8n1Ks
-8D0 inittext CODE >4708:/tmp/xcXu8n1Ks
-8D0 inittext CODE >4709:/tmp/xcXu8n1Ks
-8D1 inittext CODE >4710:/tmp/xcXu8n1Ks
-8D2 inittext CODE >4711:/tmp/xcXu8n1Ks
-8D3 inittext CODE >4712:/tmp/xcXu8n1Ks
-8D4 inittext CODE >4713:/tmp/xcXu8n1Ks
-8D5 inittext CODE >4714:/tmp/xcXu8n1Ks
-8D6 inittext CODE >4715:/tmp/xcXu8n1Ks
-8D7 inittext CODE >4716:/tmp/xcXu8n1Ks
-8D8 inittext CODE >4717:/tmp/xcXu8n1Ks
-8D9 inittext CODE >4719:/tmp/xcXu8n1Ks
-8DA inittext CODE >4718:/tmp/xcXu8n1Ks
-8DB clrtext CODE >4661:/tmp/xcXu8n1Ks
-8DB clrtext CODE >4662:/tmp/xcXu8n1Ks
-8DC clrtext CODE >4663:/tmp/xcXu8n1Ks
-8DC clrtext CODE >4664:/tmp/xcXu8n1Ks
-8DD clrtext CODE >4665:/tmp/xcXu8n1Ks
-8DE clrtext CODE >4666:/tmp/xcXu8n1Ks
-8DF clrtext CODE >4667:/tmp/xcXu8n1Ks
-8E0 clrtext CODE >4668:/tmp/xcXu8n1Ks
-8E1 clrtext CODE >4669:/tmp/xcXu8n1Ks
-8E2 clrtext CODE >4670:/tmp/xcXu8n1Ks
-8E3 clrtext CODE >4671:/tmp/xcXu8n1Ks
-8E4 clrtext CODE >4672:/tmp/xcXu8n1Ks
-8E5 clrtext CODE >4674:/tmp/xcXu8n1Ks
-8E6 clrtext CODE >4673:/tmp/xcXu8n1Ks
+8CF inittext CODE >4706:/tmp/xcXrftkzm
+8CF inittext CODE >4707:/tmp/xcXrftkzm
+8D0 inittext CODE >4708:/tmp/xcXrftkzm
+8D0 inittext CODE >4709:/tmp/xcXrftkzm
+8D1 inittext CODE >4710:/tmp/xcXrftkzm
+8D2 inittext CODE >4711:/tmp/xcXrftkzm
+8D3 inittext CODE >4712:/tmp/xcXrftkzm
+8D4 inittext CODE >4713:/tmp/xcXrftkzm
+8D5 inittext CODE >4714:/tmp/xcXrftkzm
+8D6 inittext CODE >4715:/tmp/xcXrftkzm
+8D7 inittext CODE >4716:/tmp/xcXrftkzm
+8D8 inittext CODE >4717:/tmp/xcXrftkzm
+8D9 inittext CODE >4719:/tmp/xcXrftkzm
+8DA inittext CODE >4718:/tmp/xcXrftkzm
+8DB clrtext CODE >4661:/tmp/xcXrftkzm
+8DB clrtext CODE >4662:/tmp/xcXrftkzm
+8DC clrtext CODE >4663:/tmp/xcXrftkzm
+8DC clrtext CODE >4664:/tmp/xcXrftkzm
+8DD clrtext CODE >4665:/tmp/xcXrftkzm
+8DE clrtext CODE >4666:/tmp/xcXrftkzm
+8DF clrtext CODE >4667:/tmp/xcXrftkzm
+8E0 clrtext CODE >4668:/tmp/xcXrftkzm
+8E1 clrtext CODE >4669:/tmp/xcXrftkzm
+8E2 clrtext CODE >4670:/tmp/xcXrftkzm
+8E3 clrtext CODE >4671:/tmp/xcXrftkzm
+8E4 clrtext CODE >4672:/tmp/xcXrftkzm
+8E5 clrtext CODE >4674:/tmp/xcXrftkzm
+8E6 clrtext CODE >4673:/tmp/xcXrftkzm
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -1023,12 +1023,12 @@ _SYNC CF4 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 _TMR0 15 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 _TRMT CF1 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 _TXEN CF5 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
-___sp 0 0 STACK 2 stack /tmp/xcXsDbPYc.obj
+___sp 0 0 STACK 2 stack /tmp/xcXct1tTm.obj
 _idsn B72 0 CODE 0 text7 dist/default/production/pic16lf1938.production.obj
 _main D84 0 CODE 0 maintext dist/default/production/pic16lf1938.production.obj
 btemp 7E 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 ltemp 7E 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
-start 78 0 CODE 0 init /tmp/xcXsDbPYc.obj
+start 78 0 CODE 0 init /tmp/xcXct1tTm.obj
 ttemp 7E 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 wtemp 7E 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 __end_of_pic_init 1592 0 CODE 0 text25 dist/default/production/pic16lf1938.production.obj
@@ -1067,12 +1067,12 @@ ttemp2 84 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 ttemp3 87 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 ttemp4 7F 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 eeprom_page_write@i 49 0 BANK0 1 cstackBANK0 dist/default/production/pic16lf1938.production.obj
-intlevel0 0 0 CODE 0 functab /tmp/xcXsDbPYc.obj
-intlevel1 0 0 CODE 0 functab /tmp/xcXsDbPYc.obj
-intlevel2 0 0 CODE 0 functab /tmp/xcXsDbPYc.obj
-intlevel3 0 0 CODE 0 functab /tmp/xcXsDbPYc.obj
-intlevel4 0 0 CODE 0 functab /tmp/xcXsDbPYc.obj
-intlevel5 0 0 CODE 0 functab /tmp/xcXsDbPYc.obj
+intlevel0 0 0 CODE 0 functab /tmp/xcXct1tTm.obj
+intlevel1 0 0 CODE 0 functab /tmp/xcXct1tTm.obj
+intlevel2 0 0 CODE 0 functab /tmp/xcXct1tTm.obj
+intlevel3 0 0 CODE 0 functab /tmp/xcXct1tTm.obj
+intlevel4 0 0 CODE 0 functab /tmp/xcXct1tTm.obj
+intlevel5 0 0 CODE 0 functab /tmp/xcXct1tTm.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 eeprom_single_read@addr 44 0 BANK0 1 cstackBANK0 dist/default/production/pic16lf1938.production.obj
 error_blaster@err_num 3C 0 BANK0 1 cstackBANK0 dist/default/production/pic16lf1938.production.obj
@@ -1181,7 +1181,7 @@ _hard_lockup_uart 1E9C 0 CODE 0 text65 dist/default/production/pic16lf1938.produ
 _uart_write 1268 0 CODE 0 text64 dist/default/production/pic16lf1938.production.obj
 hard_lockup@i 40 0 BANK0 1 cstackBANK0 dist/default/production/pic16lf1938.production.obj
 _WDTCON 97 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
-___int_sp 0 0 STACK 2 stack /tmp/xcXsDbPYc.obj
+___int_sp 0 0 STACK 2 stack /tmp/xcXct1tTm.obj
 __end_of_get_pvt_str 17A6 0 CODE 0 text16 dist/default/production/pic16lf1938.production.obj
 __size_of_eeprom_single_write 0 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 eeprom_page_write@page_data 43 0 BANK0 1 cstackBANK0 dist/default/production/pic16lf1938.production.obj
@@ -1393,7 +1393,7 @@ _am1805_initiate_ctdn_sleep 14A0 0 CODE 0 text12 dist/default/production/pic16lf
 _i3gnav C7C 0 CODE 0 text13 dist/default/production/pic16lf1938.production.obj
 __Lintentry 8 0 CODE 0 intentry -
 __end_of_hard_lockup_uart 1F4A 0 CODE 0 text65 dist/default/production/pic16lf1938.production.obj
-reset_vec 0 0 CODE 0 reset_vec /tmp/xcXsDbPYc.obj
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXct1tTm.obj
 __size_of_send_am1805_write 0 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
 __pdataBANK1 E3 0 BANK1 1 dataBANK1 dist/default/production/pic16lf1938.production.obj
 __pdataBANK2 120 0 BANK2 1 dataBANK2 dist/default/production/pic16lf1938.production.obj
@@ -1525,8 +1525,8 @@ ___lwdiv@divisor 73 0 COMMON 1 cstackCOMMON dist/default/production/pic16lf1938.
 _strcpy 1434 0 CODE 0 text67 dist/default/production/pic16lf1938.production.obj
 _send_am1805_read 132C 0 CODE 0 text54 dist/default/production/pic16lf1938.production.obj
 __size_of_get_pvt_str 0 0 ABS 0 - dist/default/production/pic16lf1938.production.obj
-stackhi 2388 0 ABS 0 - /tmp/xcXsDbPYc.obj
-stacklo 2112 0 ABS 0 - /tmp/xcXsDbPYc.obj
+stackhi 2388 0 ABS 0 - /tmp/xcXct1tTm.obj
+stacklo 2112 0 ABS 0 - /tmp/xcXct1tTm.obj
 ubx_send_and_recv@response_time 29 0 BANK0 1 cstackBANK0 dist/default/production/pic16lf1938.production.obj
 __end_of_set_led_duty 1E9C 0 CODE 0 text66 dist/default/production/pic16lf1938.production.obj
 _am1805_sleep_error 6 0 CODE 0 text51 dist/default/production/pic16lf1938.production.obj

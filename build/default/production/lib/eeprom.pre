@@ -4483,5 +4483,5 @@ eeprom_page_write(17, gpspage4, 8);
 }
 
 void eeprom_write_nrf52_sig_byte(uint8_t sig_byte) {
-eeprom_single_write(0x0A, sig_byte);
+eeprom_single_write(sig_byte, 0x0A);
 }
